@@ -109,7 +109,7 @@ class InputCompleter(object):
 
     options = []
 
-    re = re.compile('.*\s+$', re.M)
+    re = re.compile(r'.*\s+$', re.M)
 
     def setOptions(self, options: list):
         self.options = options
